@@ -13,6 +13,7 @@ export const useAjou = defineStore('argentajouter', () => {
       ajoutArgent.value.push({...argentajouter, id: uuid()}  )
       
 }
+  
 return {ajoutArgent, ajout}
 })
 
